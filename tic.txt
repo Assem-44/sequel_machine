@@ -1,0 +1,20 @@
+ip : 10.129.95.232
+
+---------------------------------------------
+3306/tcp open  mysql?
+mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.3.27-MariaDB-0+deb10u1
+|   Thread ID: 66
+|   Capabilities flags: 63486
+----------------------------------------------
+SHOW DATABASES;
+SHOW SCHEMAS;
+SHOW DATABASES LIKE "test_string";
+Replace text_string with the characters you want to search for. For example
+SHOW DATABASES LIKE "mysql"; 
+The output lists all databases named mysql.
+
+
+
+the flag 7b4bec00d1a39e3dd4e021ec3d915da8
